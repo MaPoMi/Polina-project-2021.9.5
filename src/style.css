@@ -69,16 +69,10 @@ img {
   background-color: #26c8ee;
   border-radius: 10px;
 }
-.date-col-sm {
-  position: relative;
-  top: 10px;
-  left: 100px;
+.week-row {
+  display: block;
+  margin: 0 auto;
 }
-.city-col-sm {
-  top: 10px;
-  left: 300px;
-}
-
 .Fri-card {
   position: relative;
   top: 0;
