@@ -2,17 +2,19 @@
   background: rgb(121, 228, 230);
   border: 2px solid rgb(12, 192, 102);
   border-radius: 30px;
-  padding: 20px;
-  margin: 5px 50px 10px;
-  box-shadow: 5px 5px 5px rgba(110, 108, 108, 0.3);
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
+  display: block;
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 20px 16px 24px 16px;
 }
 
 body {
   font-family: Georgia, "Times New Roman", Times, serif;
 }
-h1 {
-  color: green;
-  font-size: 50px;
+.heading {
+  color: rgb(10, 6, 207);
+  font-size: 65px;
   font-weight: bold;
   padding: 100px;
   text-align: center;
@@ -69,36 +71,13 @@ img {
   background-color: #26c8ee;
   border-radius: 10px;
 }
-.week-row {
-  display: block;
-  margin: 0 auto;
-}
-.Fri-card {
-  position: relative;
-  top: 0;
-  left: 0;
-}
-.Sat-card {
-  position: relative;
-  top: -150px;
-  left: 200px;
-}
-.Sun-card {
-  position: relative;
-  top: -300px;
-  left: 400px;
-}
-.Mon-card {
-  position: relative;
-  top: -450px;
-  left: 600px;
+.col {
+  color: #1512f3;
+  font-size: 50px;
+  text-align: center;
+  bottom: 50px;
 }
 
-.Tue-card {
-  position: relative;
-  top: -600px;
-  left: 800px;
-}
 .developer {
   text-align: center;
   font-size: 22px;
