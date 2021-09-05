@@ -1,0 +1,116 @@
+#box {
+  background: rgb(121, 228, 230);
+  border: 2px solid rgb(12, 192, 102);
+  border-radius: 30px;
+  padding: 20px;
+  margin: 5px 50px 10px;
+  box-shadow: 5px 5px 5px rgba(110, 108, 108, 0.3);
+}
+
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+h1 {
+  color: green;
+  font-size: 50px;
+  font-weight: bold;
+  padding: 100px;
+  text-align: center;
+}
+
+.search {
+  text-align: center;
+  padding: 100px;
+}
+
+form {
+  font-size: 30px;
+  margin: 0;
+  padding: 0 20 0 20;
+  position: relative;
+  top: -35px;
+  left: 40px;
+}
+
+#city {
+  font-size: 50px;
+  text-align: center;
+}
+#current-date {
+  color: green;
+  font-display: bold;
+  font-size: 50px;
+  text-align: center;
+}
+#city-temp {
+  font-display: bold;
+  font-size: 50px;
+  text-align: center;
+}
+.units {
+  font-display: bold;
+  font-size: 50px;
+  text-align: right;
+}
+img {
+  position: static;
+  border-radius: 10px;
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+}
+.today-container {
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+  margin: 200px 100px;
+  padding: 20px;
+  background-color: #26c8ee;
+  border-radius: 10px;
+}
+.date-col-sm {
+  position: relative;
+  top: 10px;
+  left: 100px;
+}
+.city-col-sm {
+  top: 10px;
+  left: 300px;
+}
+
+.Fri-card {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.Sat-card {
+  position: relative;
+  top: -150px;
+  left: 200px;
+}
+.Sun-card {
+  position: relative;
+  top: -300px;
+  left: 400px;
+}
+.Mon-card {
+  position: relative;
+  top: -450px;
+  left: 600px;
+}
+
+.Tue-card {
+  position: relative;
+  top: -600px;
+  left: 800px;
+}
+.developer {
+  text-align: center;
+  font-size: 22px;
+}
+.contact {
+  text-align: center;
+  font-style: underline;
+  font-size: 25px;
+}
